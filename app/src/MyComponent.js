@@ -15,6 +15,8 @@ export default ({ accounts }) => (
       <p>Examples of how to get started with Drizzle in various situations.</p>
     </div>
 
+    {/*
+
     <div className="section">
       <h2>Active Account</h2>
       <AccountData accountIndex={0} units="ether" precision={3} />
@@ -83,5 +85,6 @@ export default ({ accounts }) => (
       <strong>Single Device Data: </strong>
       <ContractData contract="ComplexStorage" method="singleDD" />
     </div>
+    */}
   </div>
 );
