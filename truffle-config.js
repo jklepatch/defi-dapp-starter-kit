@@ -13,4 +13,5 @@ module.exports = {
     reporter: 'eth-gas-reporter',
     reporterOptions : { showTimeSpent:true }
   },
+  plugins: ["solidity-coverage"]
 };

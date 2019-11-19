@@ -25,6 +25,7 @@
     "openzeppelin-solidity": "^2.4.0"
   },
   "devDependencies": {
-    "eth-gas-reporter": "^0.2.12"
+    "eth-gas-reporter": "^0.2.12",
+    "solidity-coverage": "^0.7.0-beta.2"
   }
 }
