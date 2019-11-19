@@ -1,6 +1,7 @@
 # DeFi Dapp Start Kit
 
 ![](https://github.com/jklepatch/workflows/ci/badge.svg)
+[![Coverage Status](https://coveralls.io/repos/github/jklepatch/defi-dapp-starter-kit/badge.svg?branch=master)](https://coveralls.io/github/jklepatch/defi-dapp-starter-kit?branch=master)
 
 A Starter kit for Ethereum DeFi Dapps
 
