@@ -1,0 +1,13 @@
+image: node:lts
+
+stages:
+  - test
+
+test:
+  stage: test
+  script:
+   - npm install -g truffle
+   - npm install -g coveralls
+   - npm install
+   - npm run test
+   - npm run coverage
