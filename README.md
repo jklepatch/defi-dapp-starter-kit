@@ -1,5 +1,7 @@
 # DeFi Dapp Start Kit
 
+![](https://github.com/jklepatch/workflows/ci/badge.svg)
+
 A Starter kit for Ethereum DeFi Dapps
 
 (in-progress...)
