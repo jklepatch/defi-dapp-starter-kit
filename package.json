@@ -7,7 +7,8 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "truffle test",
+    "coverage": "truffle run coverage && cat coverage/lcov.info | coveralls"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,8 @@
   "homepage": "https://github.com/truffle-box/drizzle-box#readme",
   "dependencies": {
     "openzeppelin-solidity": "^2.4.0"
+  },
+  "devDependencies": {
+    "eth-gas-reporter": "^0.2.12"
   }
 }
